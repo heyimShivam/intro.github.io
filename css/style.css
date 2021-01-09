@@ -120,15 +120,43 @@ hr{
 }
 .int{
     
-    margin-left: 30%;
-    height: 90px;
-}
-.col-sm-3{
-    padding: 0%;
-    margin-bottom: 15px;
+    
+    height: 85px;
+    position: relative;
 }
 
+
+.gate{
+    margin-left: 10%;
+}
+@media only screen and (max-width: 763px) {
+    
+    .gate{
+        margin-left: 5%;
+    }
+  }
+  @media only screen and (max-width: 633px) {
+    
+    .gate{
+        margin-left: 2%;
+    }
+  }
+  @media only screen and (max-width: 521px) {
+    
+    .gate{
+        margin-left: 0%;
+    }
+  }
+.int:hover{
+
+}
 .ec{
   
    height: 105%;
+}
+.last{
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: black;
 }
