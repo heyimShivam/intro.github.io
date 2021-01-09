@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\woking in Vs code"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"iosfwd": "cpp",
+			"ostream": "cpp"
+		}
+	}
+}
