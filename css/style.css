@@ -136,25 +136,8 @@ hr{
 }
 
 
-.gate{
-    margin-left: 10%;
-}
-@media only screen and (max-width: 763px) {
-    
-    .gate{
-        margin-left: 5%;
-    }
-  }
-  @media only screen and (max-width: 633px) {
-    
-    .gate{
-        margin-left: 0%;
-    }
-  }
- 
-.int:hover{
 
-}
+
 .ec{
   
    height: 105%;
@@ -165,3 +148,55 @@ hr{
     color: white;
     background-color: black;
 }
+.linknew{
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Roboto Slab, sans-serif;
+    display: block;
+    padding: 30px 20px;
+    background-color: red;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+@media only screen and (max-width: 999px) {
+    
+    .linknew{
+        font-weight: 600;
+        
+        font-size: 20px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    
+    .linknew{
+        padding: 15px 0px;
+        border-radius: 0px;
+    border: 1px solid rgba(255, 0, 0, 0.281);
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+  }
+
+  
+
+  @media only screen and (max-width: 767px) {
+    
+    #me{
+        margin-left: 25%;
+        width: 50%;
+    }
+    .myname{
+        font-size: 50px;
+    }
+    .card-img-top{
+        height: 300px;
+    }
+  }
+
