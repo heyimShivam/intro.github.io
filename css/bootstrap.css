@@ -4256,6 +4256,14 @@ textarea.form-control-lg {
 .card-img-bottom {
   width: 100%;
 }
+@media only screen and (max-width: 767px) {
+    
+  .card-img,
+  .card-img-top,
+  .card-img-bottom {
+    width: 50%;
+  }
+}
 
 .card-img,
 .card-img-top {
