@@ -46,17 +46,11 @@ hr{
 #topimage{
     width: 100%;  
 }
-#endimg{
+.endimg{
     width: 100%;  
     height:150px;
 }
-@media only screen and (max-width: 1364px) {
-    
-    #endimg{
-        width: 0%;  
-        height:0px;
-    }
-  }
+
 
 
 
@@ -197,5 +191,60 @@ hr{
     }
     .card-img-top{
         height: 300px;
+    }
+  }
+.endimg{
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  width: 100%;
+  height: 20%;
+}
+@media only screen and (max-width: 1364px) {
+    
+    .endimg{
+        width: 0%;  
+        height:0px;
+    }
+  }
+.imager1{
+    position: absolute;
+    bottom: 5px; 
+    left: 10px; 
+    display: block;
+    padding: 2px;
+    color:white; 
+    border-color:black;
+}
+.imager2{
+    position: absolute;
+    bottom: 20px; 
+    left: 10px; 
+    display: block;
+    padding: 2px;
+    color:white; 
+    border-color:black;
+}
+.imager3{
+    position: absolute;
+    bottom: 54px; 
+    left: 43%; 
+    display: block;
+    padding: 2px;
+    color:white; 
+    border-color:black;
+}
+@media only screen and (max-width: 1364px) {
+    
+    .imager1{
+        width: 0%;  
+        height:0px;
+    }
+    .imager2{
+        width: 0%;  
+        height:0px;
+    }
+    .imager3{
+        width: 0%;  
+        height:0px;
     }
   }
